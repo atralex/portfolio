@@ -12,14 +12,14 @@ body {
     height: 100%;
     width: 70%;
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .imagen {
     width: 500px;
     height: 500px;
     background-image: url(../img/ARG.jpg);
-    margin-left: 25%;
 }
 
 .rrss {
@@ -73,14 +73,14 @@ body {
     margin-left: 15%;
 }
 footer{
-    height: 100px;
+    height: 150px;
     background-color: #9C75EB;
     margin-top: 2%;
 }
 .flex-row {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 150px;
     box-shadow: 0 0 14px gainsboro;
 }
 .justify-content-center{

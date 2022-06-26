@@ -1,28 +1,90 @@
-body{
-    background-color: rgb(221, 178, 250);
+body {
+    background-color: #EBD0F5;
 }
-.navbar{
-    background-color: #5e17eb; !important
+
+.navbar {
+    background-color: #5e17eb;
+     !important
 }
-.cabeza{
+
+.cabeza {
     background-color: #5e17eb;
     height: 100%;
     width: 1000px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
-.imagen{
+
+.imagen {
     width: 500px;
     height: 500px;
     background-image: url(../img/ARG.jpg);
     margin-left: 25%;
 }
-.rrss{
+
+.rrss {
     width: 70%;
     margin-left: 15%;
 }
-.rrss button{
+
+.rrss button {
     height: 70px;
     width: 50%;
     margin-left: 25%;
-    background-color: #fff;
+    background-color: #E3E5FF;
+}
+
+.curriculum {
+    width: 70%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper button {
+    height: 75px;
+    width: 150px;
+    margin-left: 25%;
+    background-color: #E3E5FF;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+}
+.wrapper a{
+    margin-left: 15%;
+}
+.resumen{
+    width: 70%;
+    margin-left: 15%;
+}
+footer{
+    height: 100px;
+    background-color: #9C75EB;
+    margin-top: 2%;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    box-shadow: 0 0 14px gainsboro;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.caja{
+    margin: 40px;
 }

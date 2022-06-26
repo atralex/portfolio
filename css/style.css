@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(221, 178, 250);
+}
+.navbar{
+    background-color: #5e17eb; !important
+}
+.cabeza{
+    background-color: #5e17eb;
+    height: 100%;
+    width: 1000px;
+    margin-top: 5px;
+}
+.imagen{
+    width: 500px;
+    height: 500px;
+    background-image: url(../img/ARG.jpg);
+    margin-left: 25%;
+}
+.rrss{
+    width: 70%;
+    margin-left: 15%;
+}
+.rrss button{
+    height: 70px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #fff;
+}

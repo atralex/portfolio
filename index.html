@@ -13,6 +13,8 @@
   <link rel="shortcut icon" href="img/ARG.ico">
   <link rel="stylesheet" media="only screen and (min-width: 1080px)" href="css/style.css">
   <link rel="stylesheet" media="only screen and (max-width: 1080px)" href="css/style2.css">
+  <script src="js/scrollreveal.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 
 </head>
 
@@ -34,13 +36,16 @@
         <li class="nav-item dropdown">
           <a href="#projects" class="nav-link">Some of my Projects</a>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#contacto">Get in contact</a>
+        </li>
       </ul>
     </div>
   </nav>
   <div class="container cabeza">
     <div class="imagen">
       <br />
-      <h3 class="text-black text-center ml-0 animation">
+      <h3 class="text-black text-center ml-0 titulo">
         Hi, I'm Alejandro Rodríguez González ;)
       </h3>
     </div>
@@ -78,16 +83,21 @@
   </section>
   <div class="resumen mb-5">
     <h4 class="text-secondary text-center mb-4">Who am I?</h4>
-    <p>As you can guess, I'm a web developer. Let me tell you about my journey through the web develoment world. <br />
-      My journey started when I was about 14 years old, I took robotics as a subject in the highschool. One of the
-      assignments that I needed to handle, was a robot, capable of following a line drawn in the floor. For the robot to
-      be able to do that, it needed to be programmed. </p>
+    <div class="parrafo">
+      <p>As you can guess, I'm a web developer.
+        <br />
+        Here I explain some of my credentials: <br/>
+        - I'm currently auditing a course in HTML5, CSS3, and JavaScript. It's a remote course by the Johns Hopkins University. <br/>
+        - 
+      </p>
+    </div>
+
   </div>
   <section id="CV">
     <h4 class="text-center text-secondary mt-5 mb-4">Curriculum Vitae</h4>
     <div class="wrapper">
       <div class="one">
-        <h4 class="text-center">Español</h4>
+        <h4 class="text-center text-secondary">Español</h4>
         <a href="pdf/CV Alejandro.pdf" target="_blank">
           <button class="rounded-lg one transition">
             <h6 class="text-info text-center">CV</h6>
@@ -96,7 +106,7 @@
         </a>
       </div>
       <div class="two">
-        <h4 class="text-center">English</h4>
+        <h4 class="text-center text-secondary">English</h4>
         <a href="pdf/CV Alejandro.pdf" target="_blank">
           <button class="rounded-lg two transition">
             <h6 class="text-info text-center">CV</h6>
@@ -122,7 +132,25 @@
       </div>
     </div>
   </footer>
+  <div class="modal fade rounded-lg" id="contacto" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-iniciasesion myModalHeader myModalClose">
+                    <h5 class="text-center">Contact with me</h5>
+                </div>
+                <div class="modal-body bg-iniciasesion rounded-lg myModalBody">
+                    <div class="modal-body text-center">
+                      <h6>Send an email: <a href="mailto:atralexrg@gmail.com" class="modallink text-secondary" target="_blank">atralexrg@gmail.com</a></h6>
+                      <h6>Call me at: <a href="tel:+34633264819" class="text-secondary" target="_blank">633 26 48 19</a></h6>
+                      <h6>Or you can text me via WhatsApp by clicking <a href="https://wa.me/+34633264819" class="text-info" target="_blank">here</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   <!-- Optional JavaScript -->
+   <script src="js/index.js"></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -133,6 +161,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+ 
 </body>
 
 </html>

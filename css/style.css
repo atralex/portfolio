@@ -3,8 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #5e17eb;
-     !important
+    background-color: #5e17eb; !important
 }
 
 .cabeza {
@@ -104,4 +103,16 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #9C75EB;
+}
+.myModalHeader{
+    background-color: #5e17eb;
+}
+.myModalClose{
+    color: #EBB723;
+}
+.myModalBody{
+    background-color: #EBD0F5;
+}
+.modallink{
+    text-decoration: wavy; !important
 }

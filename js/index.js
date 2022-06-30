@@ -9,7 +9,9 @@ window.sr = ScrollReveal();
         duration: '3000',
         origin: 'right',
         distance: '1000px'
-    })
+    });
     ScrollReveal().reveal('.imagen', {
-        duration: '3000'
-    })
+        delay: '1000',
+        duration: '3000',
+        scale: '0.1'
+    });
